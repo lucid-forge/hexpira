@@ -1,0 +1,41 @@
+name: Bug report
+description: Report an encoder, decoder, specification, or reference-demo defect
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Specification
+        - Encoder
+        - Decoder
+        - Reed–Solomon / BCH / CRC
+        - Image or camera reader
+        - Reference web demo
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Explain the observed and expected behavior.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Format version
+      value: "0.4R-draft"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Include the payload, profile, radius, and image when safe.
+    validations:
+      required: true
+
+
