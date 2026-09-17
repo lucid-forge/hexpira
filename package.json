@@ -1,0 +1,24 @@
+{
+  "name": "hexpira",
+  "version": "0.4.0-r",
+  "description": "Experimental hexagonal 2D code format and reference implementation",
+  "license": "Apache-2.0",
+  "author": "lucid-forge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucid-forge/hexpira.git"
+  },
+  "private": false,
+  "type": "module",
+  "files": [
+    "reference",
+    "specification",
+    "src",
+    "tests",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ]
+}
+
+
