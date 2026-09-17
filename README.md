@@ -1,5 +1,11 @@
 # Hexpira
 
+<p align="center">
+  <img src="assets/hexpira-demo.svg" alt="Hexpira v0.4R demonstration code" width="620">
+</p>
+
+<p align="center"><em>Normative robust-profile example encoding multilingual UTF-8 text.</em></p>
+
 Hexpira is an experimental binary 2D code built on a pointy-top hexagonal
 lattice. Version **0.4R** focuses on a small, deterministic format: three
 payload codecs, three proportional Reed–Solomon profiles, duplicated BCH
@@ -98,5 +104,4 @@ Copyright 2026 lucid-forge.
 Licensed under the [Apache License 2.0](LICENSE). The license includes a patent
 grant from contributors for their contributions. It is not a legal opinion or
 a clearance of unknown third-party patent rights.
-
 
